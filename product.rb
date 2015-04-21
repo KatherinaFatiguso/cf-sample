@@ -16,6 +16,6 @@ class Product
   end
 
   def to_s
-    "Name #{name}, Price $#{price}, Qty #{qty}" 
+    "Name #{name}, Price $#{price}, Qty #{qty}"
   end
 end
