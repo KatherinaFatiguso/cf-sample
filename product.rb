@@ -14,4 +14,8 @@ class Product
   def gst
     @price * 0.1
   end
+
+  def to_s
+    "Name #{name}, Price $#{price}, Qty #{qty}" 
+  end
 end
